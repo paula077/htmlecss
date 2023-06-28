@@ -66,6 +66,10 @@ body{
 .container_caixa {
     margin: 0 6em;
 }
+.container_botao:hover{
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+ }
 
 .secundario_imagem {
     width: 80%;
@@ -74,6 +78,15 @@ body{
 .secundario {
     align-items: center;
     margin: 0 10em;
+}
+
+.secundario-botao{
+display: inline-block;
+margin-top: 1em;
+}
+
+.container-descricao{
+    padding: 2em;
 }
 
 .descrição-titulo{
@@ -114,5 +127,31 @@ body{
 .Lista-link a:hover{
     color: var(--botao-azul);
 }
+
+.estatisticas-lista{
+ display: flex;
+ justify-content: center;
+ list-style-type: none;
+ margin: 5em 0;
+}
+
+.estatisticas{
+text-align: center;
+}
+
+.estatisticas-titulo{
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.estatisticas-item{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.Lista-link a:active{
+    color: purple;
+}
+
 
 
